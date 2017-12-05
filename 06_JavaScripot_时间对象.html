@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    //回去当前时间
+    var date = new Date();
+//    获取年份 返回 4 位数
+    var year = date.getFullYear();
+    //返回月份 0-11
+    var month = date.getMonth();
+    //返回天数 返回0-31
+    var day = date.getDay();
+//    获取小时 0-23
+    var hour = date.getHours();
+    //获取分钟 0 -59
+    var minutes = date.getMinutes();
+    //获取秒  0-59
+    var seconds = date.getSeconds();
+    console.log("年"+year+
+        "月"+month+
+        "日"+day+
+        "时"+hour+
+        "分"+minutes+
+        "秒");
+</script>
+</body>
+</html>
